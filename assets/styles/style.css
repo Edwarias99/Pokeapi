@@ -1,0 +1,43 @@
+header{
+  background-color: aqua;
+  
+}
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(71, 96, 130);
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color:rgb(208, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  margin: 5px;
+  border: 10px solid white;
+}
+
+.card-image {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
